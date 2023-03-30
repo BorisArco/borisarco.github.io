@@ -1,16 +1,18 @@
 <!DOCTYPE html>
+<html>
 
 <head>
-  <meta charset="utf-8">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Link-bio-Boris</title>
   <link rel="stylesheet" href="index.css">
 </head>
-<html>
 
 <body>
+  <div id="particles-js"></div>
   <main>
     <header>
-      <img src="images/uku-1.jpg" />
+      <img src="images/boris-web1.jpg" />
       <h1>@borisarco</h1>
     </header>
     <ul>
@@ -33,7 +35,13 @@
         </a>
       </li>
     </ul>
-
+    <!-- Blur transition code -->
+    <script>
+      const main = document.querySelector("main")
+      main.style.opacity = 1
+      main.style.filter = 'blur(0px)'
+    </script>
+    <!-- -->
   </main>
 </body>
 
